@@ -78,22 +78,26 @@
                 dataSrc: 'users',
                 columns: columns,
 
-                // enableCustomColumnFilter: true,
-                // columnFilterFields: ['name', 'email'],
+                // columnFiltering: true,
+                // filterableColumns: ['name', 'email'],
+
+                sortable: true,
+                sortableColumns: ['id', 'name'],
 
                 baseTheme: "bootstrap", // "daisyui", "bootstrap", "tailwind"
 
-                // enableSort: true,
-                // sortableColumns: ['id', 'name'],
+                loading: {
+                    show: false,
+                    elementId: 'custom-loading-spinner',
+                    delay: 1000,
+                },
 
-
-                // selectable: true,
-                // selectMode: "single", // 'single'|'multiple'
-                // selectionClass: "row-selected", // optional custom class
-                // selectionBgClass: "bg-success", // optional custom background
-
-                // loadingSpinner: true,
-                // loadingSpinnerDuration: 2000,
+                selection: {
+                    enabled: false,
+                    mode: "single", // 'single'|'multiple'
+                    rowClass: "row-selected",
+                    backgroundClass: "bg-blue-100",
+                },
 
             });
 

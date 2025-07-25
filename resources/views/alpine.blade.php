@@ -68,7 +68,7 @@
                         url: '/users/datatable',
                         dataSrc: 'users',
                         columns: columns,
-                        enableSort: true,
+                        sortable: true,
                         sortableColumns: ['id', 'name'],
                         baseTheme: "tailwind",
                     });
