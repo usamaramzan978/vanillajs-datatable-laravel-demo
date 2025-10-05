@@ -18,6 +18,6 @@
         "exceljs": "^4.4.0",
         "jspdf": "^3.0.1",
         "jspdf-autotable": "^5.0.2",
-        "vanillajs-datatable": "^1.0.6"
+        "vanillajs-datatable": "^1.0.9"
     }
 }

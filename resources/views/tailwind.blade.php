@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
     <div class="max-w-7xl mx-auto p-4">
         <div class="bg-white shadow-md rounded-lg border border-gray-200">
             <div class="px-6 py-4 border-b border-dashed border-gray-300 text-lg font-semibold text-gray-800">
@@ -83,19 +82,6 @@
                 sortableColumns: ['id', 'name'],
 
                 baseTheme: "tailwind", // "daisyui", "bootstrap", "tailwind"
-
-                loading: {
-                    show: false,
-                    elementId: 'custom-loading-spinner',
-                    delay: 1000,
-                },
-
-                selection: {
-                    enabled: false,
-                    mode: "single", // 'single'|'multiple'
-                    rowClass: "row-selected",
-                    backgroundClass: "bg-blue-100",
-                },
 
             });
 
